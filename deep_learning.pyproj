@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{32f7a11a-97b6-4f22-8d2c-3ae6ac595bb4}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>chapter2\chapter2.py</StartupFile>
+    <StartupFile>book\tensorflow_s2\chapter2\chapter2.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,10 +22,12 @@
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="chapter2\" />
+    <Folder Include="book\tensorflow_s2\" />
+    <Folder Include="book\" />
+    <Folder Include="book\tensorflow_s2\chapter2\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="chapter2\chapter2.py">
+    <Compile Include="book\tensorflow_s2\chapter2\chapter2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
